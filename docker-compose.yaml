@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  firstwebsite:
+    image: mydockerimage:latest
+    ports:
+      - 3000:3535
+    deploy:
+      replicas: 3
+
+  secondwebsite:
+    image: mydockerimage:latest
+    ports:
+      - 3001:3535
+    deploy:
+      replicas: 2
