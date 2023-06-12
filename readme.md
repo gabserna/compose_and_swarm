@@ -16,4 +16,4 @@ To build this image, open a terminal in the directory to build the Dockerfile an
 - List the stacks that are running `docker stack ls`
 - List the history / state of the stack: `docker stack ps mydockerimage`
 - List the services that are running in the stack `docker stack services mydockerimage`
-- Remove the stack (by name) `docker stack rm myapp-stack` (All containers will be stopped and removed)
+- Remove the stack (by name) `docker stack rm mydockerimage` (All containers will be stopped and removed)
